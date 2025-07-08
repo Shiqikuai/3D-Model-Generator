@@ -1,0 +1,66 @@
+{
+  "name": "my-vue2-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run serve\" \"npm run server\""
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@types/three": "^0.161.2",
+    "apifox": "^1.0.0",
+    "assert": "^2.1.0",
+    "axios": "^1.8.4",
+    "browserify-zlib": "^0.2.0",
+    "core-js": "^3.36.0",
+    "crypto-browserify": "^3.12.1",
+    "element-ui": "^2.15.14",
+    "gsap": "^3.12.7",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "three": "^0.161.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "vue": "^2.6.14",
+    "vue-router": "^3.6.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.10",
+    "@gradio/client": "^1.14.2",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.21.1",
+    "vm-browserify": "^1.1.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
