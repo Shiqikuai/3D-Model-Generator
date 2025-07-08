@@ -45,12 +45,12 @@ npm install
 #### 启动后端
 ```bash
 cd 3d-model-server
-node app.js
+npm run dev
 ```
 #### 启动前端
 ```bash
 cd ../3D-Model
-npm run serve
+npm run dev
 ```
 
 前端默认运行在 http://localhost:8080 ，后端默认运行在 http://localhost:3000。
